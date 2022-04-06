@@ -1,0 +1,63 @@
+:root{
+
+}
+body{ font-family: 'roboto', Tahoma, sans-serif;;
+}
+
+/* --HEADER-- */
+.header{
+    background: #FFFFFF;
+
+}
+
+.header-logo{   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;    
+    letter-spacing: 0.03em; 
+    color: black;
+
+}
+.logo-multicolor{
+    color: #2196F3;
+}
+.link{
+    text-decoration: none;
+}
+
+.btn{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+
+.btn-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    }
+
+
+/* --FOOTER-- */
+.footer{
+    background: #2F303A;
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #fff;
+}
+.footer-logo-multicolor{
+    color: #2196F3;
+}

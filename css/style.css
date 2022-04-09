@@ -26,13 +26,14 @@
 
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Tahoma, sans-serif;
+    color: var(--header-background-color);
 }
 li{
     list-style-type: none;
-}
+} 
 a{
-    text-decoration: none
+    text-decoration: none;
 }
 
 
@@ -43,7 +44,6 @@ a{
 
 .header-logo{   
     font-family: 'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;    
     letter-spacing: 0.03em; 
@@ -51,13 +51,12 @@ a{
 
 }
 
-.logo-multicolor{
+.logo-multicolor {
     color: var(--logo-multicolor);
 }
 
 .header-nav .link{
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: inherit;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -65,8 +64,7 @@ a{
 }
 
 .header-nav .link.current{
-    color: var(--active-color)
-    ;
+    color: var(--active-color);
 }
 
 .header-nav .link:hover, 
@@ -76,7 +74,6 @@ a{
 
 .header-contact{
     font-family: inherit;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -96,7 +93,6 @@ a{
 }
 .banner-text{
     font-family: inherit;
-    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;   
     text-align: center;
@@ -107,7 +103,9 @@ a{
 .btn{
     background: var(--btn-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;}
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 .btn:hover{
     background: var(--btn-hover);
@@ -117,7 +115,6 @@ a{
 }
 .btn-text{
     font-family: inherit;
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
@@ -136,7 +133,6 @@ a{
 }
 .feature-title{
     font-family: inherit;
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -145,7 +141,6 @@ a{
 }
 .feature-text{
     font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -158,7 +153,6 @@ a{
 }
 .about-title{
     font-family: inherit;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -177,7 +171,6 @@ background: var(--team-content-color);
 
 .team-title{
     font-family: inherit;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -187,7 +180,6 @@ background: var(--team-content-color);
 }
 .team-subtitle{
     font-family: inherit;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -196,7 +188,6 @@ background: var(--team-content-color);
 }
 .team-text{
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -211,6 +202,7 @@ background: var(--team-content-color);
 .filter-btn{
     background: var(--filter-btn-background);
     border-radius: 4px;
+    cursor: pointer;
 }
 .filter-btn:hover{
     background: var(--btn-hover);
@@ -219,7 +211,6 @@ background: var(--team-content-color);
 }
 .filter-btn-text{
     font-family: inherit;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -228,7 +219,6 @@ background: var(--team-content-color);
 }
 .filter-btn-text:hover{
     font-family: inherit;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
@@ -243,7 +233,6 @@ background: var(--team-content-color);
 
 .portfolio-title{
     font-family: inherit;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -251,7 +240,6 @@ background: var(--team-content-color);
 }
 .portfolio-text{
     font-family: inherit;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -264,7 +252,6 @@ background: var(--team-content-color);
 }
 .footer-logo{
     font-family: 'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -274,7 +261,6 @@ background: var(--team-content-color);
 .address {
     font-family: inherit;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -283,7 +269,6 @@ background: var(--team-content-color);
 
 .footer-contact{
     font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

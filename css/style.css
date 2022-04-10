@@ -196,9 +196,7 @@ background: var(--team-content-color);
 }
 
 /* --filter-- */
-.filter{
 
-}
 .filter-btn{
     background: var(--filter-btn-background);
     border-radius: 4px;
@@ -227,9 +225,6 @@ background: var(--team-content-color);
 }
 
 /* --PORTFOLIO-- */
-.portfolio{
-
-}
 
 .portfolio-title{
     font-family: inherit;

@@ -125,6 +125,7 @@ body{
 
 .btn-text{
     font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
@@ -208,6 +209,7 @@ background: var(--team-content-color);
 }
 .filter-btn-text {
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
